@@ -1,5 +1,4 @@
 # Discrete Event Simulation
-2
 This project is a simulation of a discrete-event system that is contained of some servers and some incoming tasks. There are some processor servers that are ready to serve. each server has a number of core processors that work with a certain speed. In this system, tasks can have different types that enter the system with different rates. each task enters a scheduler server at first, and this server specefies that each task should be processed by which server. All tasks have a deadline that determines their maximum waiting time untill being processed by a server. If we pass the deadline of a task but it is still in a waiting queue, that task will leave the queue. None of the queues have capacity limit. A sample of this system that contains 3 processor servers is showed below:
 <p align="center">
 <img width="678" alt="Screenshot 1401-11-28 at 10 52 29 PM" src="https://user-images.githubusercontent.com/45389988/219783564-65a116a6-2623-4945-86ce-494911c591bd.png">
